@@ -2,7 +2,8 @@
 simple new relic deploy tracking script, using graphql mutations
 
 Usage:
-deployment-tracking.sh "<pipeline link (or any other deeplink you want to use)>" $RELEASE_VERSION $NEWRELIC_API_KEY $COMMIT_SHA <"$COMMIT_MESSAGE"(or any link to a changelog)> "$PIPELINE_TRIGGERER_USERNAME" 
+
+deploy-tracking.sh "<pipeline link (or any other deeplink you want to use)>" $RELEASE_VERSION $NEWRELIC_API_KEY $COMMIT_SHA <"$COMMIT_MESSAGE"(or any link to a changelog)> "$PIPELINE_TRIGGERER_USERNAME" 
 
 Getting started:
 https://docs.newrelic.com/docs/apis/nerdgraph/get-started/introduction-new-relic-nerdgraph/
